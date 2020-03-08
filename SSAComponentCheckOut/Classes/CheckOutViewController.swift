@@ -24,7 +24,7 @@ public class CheckOutViewController: UIViewController {
     
     public override func viewWillLayoutSubviews() {
         super .viewWillLayoutSubviews()
-        buyBtn.frame = CGRect(x: 0, y: view.frame.size.height*0.5-60, width: view.frame.size.width*0.5, height: 60)
+        buyBtn.frame = CGRect(x: view.frame.size.height*0.25, y: view.frame.size.height*0.5-60, width: view.frame.size.width*0.5, height: 60)
     }
 
     lazy var buyBtn : UIButton = {
@@ -41,6 +41,7 @@ extension CheckOutViewController {
     @objc func clickBuyBtn() -> Void {
         
         if self.callback != nil {
+            self.navigationController?.popViewController(animated: true)
             callback!("下单成功");
         }
     }
