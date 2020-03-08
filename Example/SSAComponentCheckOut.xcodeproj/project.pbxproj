@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17C8D9E1AE262664A2D56293 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		17C8D9E1AE262664A2D56293 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1CAC903FFCAC167A105F41B7 /* Pods_SSAComponentCheckOut_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSAComponentCheckOut_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		318EA0B5EA471EC101082F42 /* SSAComponentCheckOut.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSAComponentCheckOut.podspec; path = ../SSAComponentCheckOut.podspec; sourceTree = "<group>"; };
-		3F111E079E20AA04603A6510 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		318EA0B5EA471EC101082F42 /* SSAComponentCheckOut.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSAComponentCheckOut.podspec; path = ../SSAComponentCheckOut.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3F111E079E20AA04603A6510 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		47C274D33BD1C451570F3C8D /* Pods-SSAComponentCheckOut_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSAComponentCheckOut_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSAComponentCheckOut_Example/Pods-SSAComponentCheckOut_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SSAComponentCheckOut_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSAComponentCheckOut_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -229,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
