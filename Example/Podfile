@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SSAComponentCheckOut_Example' do
+  pod 'SSAComponentCheckOut', :path => '../'
+
+  target 'SSAComponentCheckOut_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
